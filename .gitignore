@@ -1,0 +1,38 @@
+# Базове ігнорування типових тимчасових файлів
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ігнорувати резервні draw.io файли
+*.drawio.bak
+*.drawio~*
+
+# Якщо ти експортуєш зображення — зберігати тільки основні:
+# Не зберігати тимчасові рендери або експорти
+/exported-diagrams/
+*.png
+*.svg
+*.pdf
+
+# Але дозволити конкретні, якщо потрібно
+!diagrams/*.drawio
+!diagrams/*.drawio.png
+
+# Node / Java / Python — приклади (можеш видалити, якщо не потрібно)
+node_modules/
+build/
+dist/
+target/
+.venv/
+__pycache__/
+*.class
+*.jar
+
+# IDE
+.idea/
+.vscode/
+
+# Mac / Linux system
+.DS_Store
