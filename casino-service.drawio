@@ -1,10 +1,10 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
   <diagram id="IiernE9Iv0yO1-bFG6md" name="Page-1">
-    <mxGraphModel dx="4773" dy="5702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="6360" dy="6753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XAiNHoZ0GypwmLFf8YHs-46" value="casino-service DB Diagram" style="swimlane;startSize=70;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="XAiNHoZ0GypwmLFf8YHs-46" value="casino-service DB Diagram" style="swimlane;startSize=70;fontSize=24;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-250" y="-2960" width="2920" height="3521" as="geometry" />
         </mxCell>
         <mxCell id="jt9EP21Hz4GRJBBvQ_Rn-17" value="game_provider_settings" style="shape=table;startSize=40;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#6c8ebf;fontSize=16;fillColor=#dae8fc;rounded=1;" vertex="1" parent="XAiNHoZ0GypwmLFf8YHs-46">
