@@ -1,0 +1,190 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram id="nTIT8IEXk0PCsP3ORnGq" name="Page-1">
+    <mxGraphModel dx="2960" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OT77A37p6nu8_nAFnJmF-1" value="" style="fillColor=#CC4125;strokeColor=#660000" vertex="1" parent="1">
+          <mxGeometry x="-43" y="330" width="10" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-2" value="mutation refreshGameList(gamePublisherId: UUID!)" style="edgeStyle=none;verticalLabelPosition=top;verticalAlign=bottom;labelPosition=left;align=center;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OT77A37p6nu8_nAFnJmF-29" target="OT77A37p6nu8_nAFnJmF-1">
+          <mxGeometry width="100" height="100" as="geometry">
+            <mxPoint x="-340" y="330" as="sourcePoint" />
+            <mxPoint x="-43" y="328.5" as="targetPoint" />
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-3" value="casino-serive" style="shadow=1;fillColor=#A2C4C9;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="-90.5" y="230" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-4" value="game-provider-integration-service-alea" style="shadow=1;fillColor=#A2C4C9;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="245" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-8" value="" style="edgeStyle=none;endArrow=none;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OT77A37p6nu8_nAFnJmF-10" target="OT77A37p6nu8_nAFnJmF-9">
+          <mxGeometry x="845.4878472222224" y="174.99999999999997" width="100" height="100" as="geometry">
+            <mxPoint x="949.6527777777778" y="280" as="sourcePoint" />
+            <mxPoint x="975" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-9" value="" style="fillColor=#CC4125;strokeColor=#660000" vertex="1" parent="1">
+          <mxGeometry x="969" y="570" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-10" value="Alea Customer API" style="shadow=1;fillColor=#9999FF;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="905" y="230" width="138" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-11" value="[POST]  https://customer-api.aleaplay.com/api/graphql" style="elbow=vertical;verticalLabelPosition=top;verticalAlign=bottom;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1.03;exitY=0.545;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OT77A37p6nu8_nAFnJmF-40" target="OT77A37p6nu8_nAFnJmF-9">
+          <mxGeometry y="74" width="100" height="100" as="geometry">
+            <mxPoint x="490" y="580" as="sourcePoint" />
+            <mxPoint x="985" y="580" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-12" value="" style="elbow=vertical;dashed=1;verticalLabelPosition=bottom;verticalAlign=top;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1.015;entryY=0.817;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OT77A37p6nu8_nAFnJmF-9" target="OT77A37p6nu8_nAFnJmF-40">
+          <mxGeometry y="62" width="100" height="100" as="geometry">
+            <mxPoint x="984.5" y="600" as="sourcePoint" />
+            <mxPoint x="490" y="600" as="targetPoint" />
+            <mxPoint x="-9" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-13" value="AleaGamesListResponse" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OT77A37p6nu8_nAFnJmF-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-14" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OT77A37p6nu8_nAFnJmF-3" target="OT77A37p6nu8_nAFnJmF-1">
+          <mxGeometry x="-12.999999999999972" y="310" width="100" height="100" as="geometry">
+            <mxPoint x="-38" y="290" as="sourcePoint" />
+            <mxPoint x="-40" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-17" value="Refresh Game List" style="rounded=1;fontStyle=1;fillColor=#FFF2CC;strokeColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="170" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-18" value="[GET] /api/v1/game?gameProviderId={gameProviderId}&#xa;&amp;gamePublisherCode={gamePublisherCode}&amp;gameProviderUpdatedAt={gameProviderUpdatedAt}" style="edgeStyle=none;verticalLabelPosition=top;verticalAlign=bottom;labelBackgroundColor=default;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="OT77A37p6nu8_nAFnJmF-33">
+          <mxGeometry width="100" height="100" as="geometry">
+            <mxPoint x="-32" y="350" as="sourcePoint" />
+            <mxPoint x="400" y="350" as="targetPoint" />
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-20" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;verticalLabelPosition=bottom;verticalAlign=top;entryX=0.989;entryY=0.828;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OT77A37p6nu8_nAFnJmF-40" target="OT77A37p6nu8_nAFnJmF-1">
+          <mxGeometry x="-66.5" y="434.33793209876535" width="100" height="100" as="geometry">
+            <mxPoint x="470" y="620" as="sourcePoint" />
+            <mxPoint x="-20" y="620" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-21" value="GameListResponse" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OT77A37p6nu8_nAFnJmF-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-22" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;verticalLabelPosition=bottom;verticalAlign=top;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OT77A37p6nu8_nAFnJmF-1" target="OT77A37p6nu8_nAFnJmF-29">
+          <mxGeometry x="-528" y="487.66793209876533" width="100" height="100" as="geometry">
+            <mxPoint x="-60" y="680" as="sourcePoint" />
+            <mxPoint x="-330" y="670" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-23" value="RefreshGameListResponse" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OT77A37p6nu8_nAFnJmF-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-17" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-24" value="First Reverse HTTP request in a new POD raises a DEADLOCK !!!" style="shape=note;align=left;strokeColor=#CC0000;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="515" y="310" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-25" value="" style="ellipse;fillColor=none" vertex="1" parent="1">
+          <mxGeometry x="477.5000000000001" y="380.0042901234568" width="9.999999999999886" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-26" value="" style="edgeStyle=none;endArrow=none;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OT77A37p6nu8_nAFnJmF-24" target="OT77A37p6nu8_nAFnJmF-25">
+          <mxGeometry x="1040" y="190" width="100" height="100" as="geometry">
+            <mxPoint x="861.6418425796219" y="460" as="sourcePoint" />
+            <mxPoint x="780.7882601296001" y="497.2956727224855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-27" value="UI" style="shadow=1;fillColor=#CCE5FF;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="-410" y="230" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-28" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OT77A37p6nu8_nAFnJmF-27" target="OT77A37p6nu8_nAFnJmF-29">
+          <mxGeometry x="-332.53" y="300" width="100" height="100" as="geometry">
+            <mxPoint x="-358" y="290" as="sourcePoint" />
+            <mxPoint x="-358" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-29" value="" style="fillColor=#CC4125;strokeColor=#660000" vertex="1" parent="1">
+          <mxGeometry x="-362.5" y="330" width="10" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-30" value="Save/Update provider&#39;s games" style="rounded=1;fontStyle=1;fillColor=#FFD966;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="-129.66" y="630" width="183.31" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-35" value="" style="elbow=vertical;dashed=1;verticalLabelPosition=bottom;verticalAlign=top;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.99;entryY=0.231;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OT77A37p6nu8_nAFnJmF-33" target="OT77A37p6nu8_nAFnJmF-1">
+          <mxGeometry x="-69.5" y="262.33793209876535" width="100" height="100" as="geometry">
+            <mxPoint x="470" y="430" as="sourcePoint" />
+            <mxPoint x="-33" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-36" value="426: Upgrade Required" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OT77A37p6nu8_nAFnJmF-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-37" value="[PUT] /api/v1/game-provider/{gameProviderId}/settings" style="edgeStyle=none;verticalLabelPosition=top;verticalAlign=bottom;labelBackgroundColor=default;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.99;exitY=0.314;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OT77A37p6nu8_nAFnJmF-1" target="OT77A37p6nu8_nAFnJmF-34">
+          <mxGeometry x="-3" y="100" width="100" height="100" as="geometry">
+            <mxPoint x="-20" y="450" as="sourcePoint" />
+            <mxPoint x="412.5" y="450.16999999999996" as="targetPoint" />
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-38" value="" style="elbow=vertical;dashed=1;verticalLabelPosition=bottom;verticalAlign=top;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.989;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OT77A37p6nu8_nAFnJmF-34" target="OT77A37p6nu8_nAFnJmF-1">
+          <mxGeometry x="-74.5" y="302.83793209876535" width="100" height="100" as="geometry">
+            <mxPoint x="469" y="474.5" as="sourcePoint" />
+            <mxPoint x="-20" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-39" value="200 OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OT77A37p6nu8_nAFnJmF-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-40" value="" style="fillColor=#CC4125;strokeColor=#660000;container=0;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="510" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-41" value="" style="edgeStyle=none;endArrow=none;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OT77A37p6nu8_nAFnJmF-4" target="OT77A37p6nu8_nAFnJmF-33">
+          <mxGeometry x="272.3350694444445" y="165" width="100" height="100" as="geometry">
+            <mxPoint x="483" y="290" as="sourcePoint" />
+            <mxPoint x="483" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-42" value="[GET] /api/v1/game?gameProviderId={gameProviderId}&#xa;&amp;gamePublisherCode={gamePublisherCode}&amp;gameProviderUpdatedAt={gameProviderUpdatedAt}" style="edgeStyle=none;verticalLabelPosition=top;verticalAlign=bottom;labelBackgroundColor=default;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.947;exitY=0.514;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OT77A37p6nu8_nAFnJmF-1" target="OT77A37p6nu8_nAFnJmF-40">
+          <mxGeometry width="100" height="100" as="geometry">
+            <mxPoint x="-20" y="505" as="sourcePoint" />
+            <mxPoint x="440" y="510" as="targetPoint" />
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-43" value="Cache provider settings" style="rounded=1;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="409.25" y="530" width="146.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-33" value="" style="fillColor=#CC4125;strokeColor=#660000;flipH=1;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="350.16999999999996" width="10" height="59.83" as="geometry" />
+        </mxCell>
+        <mxCell id="OT77A37p6nu8_nAFnJmF-34" value="" style="fillColor=#CC4125;strokeColor=#660000;noLabel=0;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="440" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J6T_j5SKnzM4un4b499r-2" value="" style="edgeStyle=none;endArrow=none;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OT77A37p6nu8_nAFnJmF-33" target="OT77A37p6nu8_nAFnJmF-34">
+          <mxGeometry x="272.3350694444445" y="165" width="100" height="100" as="geometry">
+            <mxPoint x="500" y="410" as="sourcePoint" />
+            <mxPoint x="500" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6T_j5SKnzM4un4b499r-4" value="" style="edgeStyle=none;endArrow=none;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OT77A37p6nu8_nAFnJmF-34" target="OT77A37p6nu8_nAFnJmF-40">
+          <mxGeometry x="272.3350694444445" y="165" width="100" height="100" as="geometry">
+            <mxPoint x="500" y="440" as="sourcePoint" />
+            <mxPoint x="500" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

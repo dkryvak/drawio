@@ -1,0 +1,82 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram id="SjCJ3mhiih2rLAi3gXCV" name="Page-1">
+    <mxGraphModel dx="1426" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OpHUvcLUvjaBLlXCdeV8-2" value="[GET] /api/v1/game-session/{sessionId}/wallet-info" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="1" source="AjLaAYhOVXo9awgu1j2c-1" target="OpHUvcLUvjaBLlXCdeV8-1" edge="1">
+          <mxGeometry x="0.0037" width="80" relative="1" as="geometry">
+            <mxPoint x="1000" y="380" as="sourcePoint" />
+            <mxPoint x="740" y="380" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5L9l9y6EKOVZmygb9h6w-1" value="Alea Transaction API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="240" width="130" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="3Ufl6S7H8RnrfwkGAg7C-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" parent="5L9l9y6EKOVZmygb9h6w-1" vertex="1">
+          <mxGeometry x="60" y="80" width="10" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="3Ufl6S7H8RnrfwkGAg7C-8" value="Balance" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=100;height=50;fillColor=#ffe6cc;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="260" y="160" width="1080" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="aNWD6McwFUx8yWugI5Fw-1" value="[GET] /players/{casinoPlayerId}/balance?casinoSessionId={casinoSessionId}" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="1" source="3Ufl6S7H8RnrfwkGAg7C-1" target="AjLaAYhOVXo9awgu1j2c-1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1230" y="320" as="sourcePoint" />
+            <mxPoint x="970" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aNWD6McwFUx8yWugI5Fw-2" value="AleaBalanceResponse" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" parent="1" source="AjLaAYhOVXo9awgu1j2c-1" target="3Ufl6S7H8RnrfwkGAg7C-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="600" as="sourcePoint" />
+            <mxPoint x="1220" y="600" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OpHUvcLUvjaBLlXCdeV8-3" value="GameSessionWalletInfoRestResponse" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" parent="1" source="OpHUvcLUvjaBLlXCdeV8-1" target="AjLaAYhOVXo9awgu1j2c-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="540" as="sourcePoint" />
+            <mxPoint x="940" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3UZowmz1lyf7BuVDYvQ6-2" value="wallet-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="300" y="240" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="3UZowmz1lyf7BuVDYvQ6-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" parent="3UZowmz1lyf7BuVDYvQ6-2" vertex="1">
+          <mxGeometry x="45" y="180" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3UZowmz1lyf7BuVDYvQ6-8" value="[GET]&amp;nbsp;/api/v1/wallet/{walletId}" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="1" source="OpHUvcLUvjaBLlXCdeV8-1" target="3UZowmz1lyf7BuVDYvQ6-5" edge="1">
+          <mxGeometry x="0.0018" width="80" relative="1" as="geometry">
+            <mxPoint x="660" y="530" as="sourcePoint" />
+            <mxPoint x="510" y="530" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3UZowmz1lyf7BuVDYvQ6-11" value="WalletRestResponse" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" parent="1" source="3UZowmz1lyf7BuVDYvQ6-5" target="OpHUvcLUvjaBLlXCdeV8-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="560" as="sourcePoint" />
+            <mxPoint x="630" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_vB63nb62DnKwnehX2wS-1" value="casino-transaction-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="460" y="240" width="160" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OpHUvcLUvjaBLlXCdeV8-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" parent="_vB63nb62DnKwnehX2wS-1" vertex="1">
+          <mxGeometry x="75" y="170" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="z7XIY7CTH8DSJ5zFvKcH-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Validate Wallet&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="472.5" y="490" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U6ja7azg0rl6jPES7cRg-1" value="game-provider-integration-service-alea" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="710" y="240" width="220" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="AjLaAYhOVXo9awgu1j2c-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" parent="U6ja7azg0rl6jPES7cRg-1" vertex="1">
+          <mxGeometry x="105" y="90" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="TiuTMVL-epMFY8sRjVYI-1" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Validate Signature&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="765" y="360" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
